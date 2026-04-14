@@ -5,7 +5,7 @@ from banco import criar_banco, salvar_no_banco
 
 def main():
     # 1. Pergunta o que o usuário quer buscar
-    termo = input("O que deseja buscar na Oasis Tabacaria? ")
+    termo = input("Qual produto deseja buscar na Oasis Tabacaria? ")
     
     # 2. Prepara o Banco de Dados (Cria a tabela se não existir)
     criar_banco()
